@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <MyFiles Include="file.txt"/>
+    </ItemGroup>
+
+    <Import Project="$(MSBuildThisFileDirectory)\..\MyFiles1.props"/>
+
+</Project>
